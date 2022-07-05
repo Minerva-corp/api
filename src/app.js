@@ -1,7 +1,7 @@
-import express from 'express';
-import cors from 'cors';
-import 'dotenv/config';
-import memeRoutes from './v1/routes/memeRoutes'
+const express = require('express');
+const cors = require('cors');
+require('dotenv/config')
+const memeRoutes = require('./v1/routes/memeRoutes')
 
 const app = express();
 

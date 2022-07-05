@@ -1,5 +1,5 @@
-import express from "express";
-import MemeController from '../../controller/memeController'
+const express =  require("express");
+const MemeController = require('../../controller/memeController')
 
 const router = express.Router();
 
