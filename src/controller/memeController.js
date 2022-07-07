@@ -3,7 +3,7 @@ const cheerio = require('cheerio')
 
 class MemeController {
     async generateMeme(req, res) {
-        request("https://www.reddit.com/r/dankmemes/", async function (error, response, html) {
+        request("http://1cak.com", async function (error, response, html) {
             if (!error) {
                 const $ = cheerio.load(html);
                 let returnInfo = [];
